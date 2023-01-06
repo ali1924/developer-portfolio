@@ -94,6 +94,7 @@ nav li {
     color: #181818;
     font-size: 35px;
     margin-bottom: 30px;
+    text-align: centergit ;
 }
 
 .section-description {
@@ -104,6 +105,7 @@ nav li {
 .about-info-container {
     display: flex;
     justify-content: space-around;
+
 }
 
 .about-info {}
@@ -118,4 +120,51 @@ nav li {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* What i do */
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.what-i-do-title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.what-i-do-descrption {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skil-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
