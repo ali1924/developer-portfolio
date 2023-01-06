@@ -94,7 +94,7 @@ nav li {
     color: #181818;
     font-size: 35px;
     margin-bottom: 30px;
-    text-align: centergit ;
+    text-align: centergit;
 }
 
 .section-description {
@@ -164,6 +164,32 @@ nav li {
 }
 
 .skil-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Resume styles */
+.resume-content {
+    display: flex;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.resume .description {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
