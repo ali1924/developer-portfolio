@@ -170,13 +170,19 @@ nav li {
 }
 
 /* Resume styles */
+.resume {
+    text-align: center;
+}
+
 .resume-content {
     display: flex;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .resume .title {
     font-weight: 700;
     font-size: 25px;
@@ -193,4 +199,43 @@ nav li {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+.resume .resume-btn {}
+
+/* contact */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.contact-content {}
+
+.contact .section-title {
+    text-align: left;
+}
+input{
+    height: 64px;
+}
+.contact .section-description{
+    font-weight: 400;
+    font-size: 16px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact input[type="text"],input[type="email"]
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.contact a{
+    text-decoration: none;
 }
